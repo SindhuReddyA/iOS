@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B5CD1B82806392B00EE8EBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CD1B72806392B00EE8EBD /* AppDelegate.swift */; };
+		7B5CD1BA2806392B00EE8EBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CD1B92806392B00EE8EBD /* SceneDelegate.swift */; };
+		7B5CD1BC2806392B00EE8EBD /* GrocerySectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CD1BB2806392B00EE8EBD /* GrocerySectionsViewController.swift */; };
+		7B5CD1BF2806392B00EE8EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5CD1BD2806392B00EE8EBD /* Main.storyboard */; };
+		7B5CD1C12806392C00EE8EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5CD1C02806392C00EE8EBD /* Assets.xcassets */; };
+		7B5CD1C42806392C00EE8EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5CD1C22806392C00EE8EBD /* LaunchScreen.storyboard */; };
+		7B5CD1CF2806392C00EE8EBD /* Adidala_GroceryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CD1CE2806392C00EE8EBD /* Adidala_GroceryAppTests.swift */; };
+		7B5CD1D92806392C00EE8EBD /* Adidala_GroceryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CD1D82806392C00EE8EBD /* Adidala_GroceryAppUITests.swift */; };
+		7B5CD1DB2806392D00EE8EBD /* Adidala_GroceryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CD1DA2806392D00EE8EBD /* Adidala_GroceryAppUITestsLaunchTests.swift */; };
+		7B5CD1E828063B0600EE8EBD /* GroceryItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CD1E728063B0600EE8EBD /* GroceryItemsViewController.swift */; };
+		7B5CD1EA28063C7E00EE8EBD /* ItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CD1E928063C7E00EE8EBD /* ItemInfoViewController.swift */; };
+		7B5CD1ED2806612C00EE8EBD /* GrocerySections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CD1EB28063E1F00EE8EBD /* GrocerySections.swift */; };
+		7B5CD1EF280661B300EE8EBD /* GrocerySections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5CD1EE280661B300EE8EBD /* GrocerySections.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B5CD1CB2806392C00EE8EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5CD1AC2806392B00EE8EBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B5CD1B32806392B00EE8EBD;
+			remoteInfo = Adidala_GroceryApp;
+		};
+		7B5CD1D52806392C00EE8EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B5CD1AC2806392B00EE8EBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B5CD1B32806392B00EE8EBD;
+			remoteInfo = Adidala_GroceryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B5CD1B42806392B00EE8EBD /* Adidala_GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adidala_GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5CD1B72806392B00EE8EBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B5CD1B92806392B00EE8EBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7B5CD1BB2806392B00EE8EBD /* GrocerySectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySectionsViewController.swift; sourceTree = "<group>"; };
+		7B5CD1BE2806392B00EE8EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B5CD1C02806392C00EE8EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B5CD1C32806392C00EE8EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B5CD1C52806392C00EE8EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B5CD1CA2806392C00EE8EBD /* Adidala_GroceryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adidala_GroceryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5CD1CE2806392C00EE8EBD /* Adidala_GroceryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adidala_GroceryAppTests.swift; sourceTree = "<group>"; };
+		7B5CD1D42806392C00EE8EBD /* Adidala_GroceryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Adidala_GroceryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5CD1D82806392C00EE8EBD /* Adidala_GroceryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adidala_GroceryAppUITests.swift; sourceTree = "<group>"; };
+		7B5CD1DA2806392D00EE8EBD /* Adidala_GroceryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adidala_GroceryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B5CD1E728063B0600EE8EBD /* GroceryItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemsViewController.swift; sourceTree = "<group>"; };
+		7B5CD1E928063C7E00EE8EBD /* ItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfoViewController.swift; sourceTree = "<group>"; };
+		7B5CD1EB28063E1F00EE8EBD /* GrocerySections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySections.swift; sourceTree = "<group>"; };
+		7B5CD1EE280661B300EE8EBD /* GrocerySections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrocerySections.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B5CD1B12806392B00EE8EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5CD1C72806392C00EE8EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5CD1D12806392C00EE8EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B5CD1AB2806392B00EE8EBD = {
+			isa = PBXGroup;
+			children = (
+				7B5CD1B62806392B00EE8EBD /* Adidala_GroceryApp */,
+				7B5CD1CD2806392C00EE8EBD /* Adidala_GroceryAppTests */,
+				7B5CD1D72806392C00EE8EBD /* Adidala_GroceryAppUITests */,
+				7B5CD1B52806392B00EE8EBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B5CD1B52806392B00EE8EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B5CD1B42806392B00EE8EBD /* Adidala_GroceryApp.app */,
+				7B5CD1CA2806392C00EE8EBD /* Adidala_GroceryAppTests.xctest */,
+				7B5CD1D42806392C00EE8EBD /* Adidala_GroceryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B5CD1B62806392B00EE8EBD /* Adidala_GroceryApp */ = {
+			isa = PBXGroup;
+			children = (
+				7B5CD1B72806392B00EE8EBD /* AppDelegate.swift */,
+				7B5CD1B92806392B00EE8EBD /* SceneDelegate.swift */,
+				7B5CD1BB2806392B00EE8EBD /* GrocerySectionsViewController.swift */,
+				7B5CD1BD2806392B00EE8EBD /* Main.storyboard */,
+				7B5CD1C02806392C00EE8EBD /* Assets.xcassets */,
+				7B5CD1C22806392C00EE8EBD /* LaunchScreen.storyboard */,
+				7B5CD1C52806392C00EE8EBD /* Info.plist */,
+				7B5CD1E728063B0600EE8EBD /* GroceryItemsViewController.swift */,
+				7B5CD1E928063C7E00EE8EBD /* ItemInfoViewController.swift */,
+				7B5CD1EE280661B300EE8EBD /* GrocerySections.swift */,
+			);
+			path = Adidala_GroceryApp;
+			sourceTree = "<group>";
+		};
+		7B5CD1CD2806392C00EE8EBD /* Adidala_GroceryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B5CD1CE2806392C00EE8EBD /* Adidala_GroceryAppTests.swift */,
+			);
+			path = Adidala_GroceryAppTests;
+			sourceTree = "<group>";
+		};
+		7B5CD1D72806392C00EE8EBD /* Adidala_GroceryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B5CD1D82806392C00EE8EBD /* Adidala_GroceryAppUITests.swift */,
+				7B5CD1EB28063E1F00EE8EBD /* GrocerySections.swift */,
+				7B5CD1DA2806392D00EE8EBD /* Adidala_GroceryAppUITestsLaunchTests.swift */,
+			);
+			path = Adidala_GroceryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B5CD1B32806392B00EE8EBD /* Adidala_GroceryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5CD1DE2806392D00EE8EBD /* Build configuration list for PBXNativeTarget "Adidala_GroceryApp" */;
+			buildPhases = (
+				7B5CD1B02806392B00EE8EBD /* Sources */,
+				7B5CD1B12806392B00EE8EBD /* Frameworks */,
+				7B5CD1B22806392B00EE8EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adidala_GroceryApp;
+			productName = Adidala_GroceryApp;
+			productReference = 7B5CD1B42806392B00EE8EBD /* Adidala_GroceryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B5CD1C92806392C00EE8EBD /* Adidala_GroceryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5CD1E12806392D00EE8EBD /* Build configuration list for PBXNativeTarget "Adidala_GroceryAppTests" */;
+			buildPhases = (
+				7B5CD1C62806392C00EE8EBD /* Sources */,
+				7B5CD1C72806392C00EE8EBD /* Frameworks */,
+				7B5CD1C82806392C00EE8EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B5CD1CC2806392C00EE8EBD /* PBXTargetDependency */,
+			);
+			name = Adidala_GroceryAppTests;
+			productName = Adidala_GroceryAppTests;
+			productReference = 7B5CD1CA2806392C00EE8EBD /* Adidala_GroceryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B5CD1D32806392C00EE8EBD /* Adidala_GroceryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B5CD1E42806392D00EE8EBD /* Build configuration list for PBXNativeTarget "Adidala_GroceryAppUITests" */;
+			buildPhases = (
+				7B5CD1D02806392C00EE8EBD /* Sources */,
+				7B5CD1D12806392C00EE8EBD /* Frameworks */,
+				7B5CD1D22806392C00EE8EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B5CD1D62806392C00EE8EBD /* PBXTargetDependency */,
+			);
+			name = Adidala_GroceryAppUITests;
+			productName = Adidala_GroceryAppUITests;
+			productReference = 7B5CD1D42806392C00EE8EBD /* Adidala_GroceryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B5CD1AC2806392B00EE8EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7B5CD1B32806392B00EE8EBD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7B5CD1C92806392C00EE8EBD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7B5CD1B32806392B00EE8EBD;
+					};
+					7B5CD1D32806392C00EE8EBD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7B5CD1B32806392B00EE8EBD;
+					};
+				};
+			};
+			buildConfigurationList = 7B5CD1AF2806392B00EE8EBD /* Build configuration list for PBXProject "Adidala_GroceryApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B5CD1AB2806392B00EE8EBD;
+			productRefGroup = 7B5CD1B52806392B00EE8EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B5CD1B32806392B00EE8EBD /* Adidala_GroceryApp */,
+				7B5CD1C92806392C00EE8EBD /* Adidala_GroceryAppTests */,
+				7B5CD1D32806392C00EE8EBD /* Adidala_GroceryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B5CD1B22806392B00EE8EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5CD1C42806392C00EE8EBD /* LaunchScreen.storyboard in Resources */,
+				7B5CD1C12806392C00EE8EBD /* Assets.xcassets in Resources */,
+				7B5CD1BF2806392B00EE8EBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5CD1C82806392C00EE8EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5CD1D22806392C00EE8EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B5CD1B02806392B00EE8EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5CD1BC2806392B00EE8EBD /* GrocerySectionsViewController.swift in Sources */,
+				7B5CD1EF280661B300EE8EBD /* GrocerySections.swift in Sources */,
+				7B5CD1B82806392B00EE8EBD /* AppDelegate.swift in Sources */,
+				7B5CD1E828063B0600EE8EBD /* GroceryItemsViewController.swift in Sources */,
+				7B5CD1EA28063C7E00EE8EBD /* ItemInfoViewController.swift in Sources */,
+				7B5CD1BA2806392B00EE8EBD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5CD1C62806392C00EE8EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5CD1CF2806392C00EE8EBD /* Adidala_GroceryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B5CD1D02806392C00EE8EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5CD1D92806392C00EE8EBD /* Adidala_GroceryAppUITests.swift in Sources */,
+				7B5CD1ED2806612C00EE8EBD /* GrocerySections.swift in Sources */,
+				7B5CD1DB2806392D00EE8EBD /* Adidala_GroceryAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B5CD1CC2806392C00EE8EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B5CD1B32806392B00EE8EBD /* Adidala_GroceryApp */;
+			targetProxy = 7B5CD1CB2806392C00EE8EBD /* PBXContainerItemProxy */;
+		};
+		7B5CD1D62806392C00EE8EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B5CD1B32806392B00EE8EBD /* Adidala_GroceryApp */;
+			targetProxy = 7B5CD1D52806392C00EE8EBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B5CD1BD2806392B00EE8EBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B5CD1BE2806392B00EE8EBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B5CD1C22806392C00EE8EBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B5CD1C32806392C00EE8EBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B5CD1DC2806392D00EE8EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B5CD1DD2806392D00EE8EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B5CD1DF2806392D00EE8EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Adidala_GroceryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Adidala_GroceryApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Adidala-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B5CD1E02806392D00EE8EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Adidala_GroceryApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Adidala_GroceryApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Adidala-GroceryApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B5CD1E22806392D00EE8EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Adidala-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adidala_GroceryApp.app/Adidala_GroceryApp";
+			};
+			name = Debug;
+		};
+		7B5CD1E32806392D00EE8EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Adidala-GroceryAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adidala_GroceryApp.app/Adidala_GroceryApp";
+			};
+			name = Release;
+		};
+		7B5CD1E52806392D00EE8EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Adidala-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adidala_GroceryApp;
+			};
+			name = Debug;
+		};
+		7B5CD1E62806392D00EE8EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Adidala-GroceryAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Adidala_GroceryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B5CD1AF2806392B00EE8EBD /* Build configuration list for PBXProject "Adidala_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5CD1DC2806392D00EE8EBD /* Debug */,
+				7B5CD1DD2806392D00EE8EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5CD1DE2806392D00EE8EBD /* Build configuration list for PBXNativeTarget "Adidala_GroceryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5CD1DF2806392D00EE8EBD /* Debug */,
+				7B5CD1E02806392D00EE8EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5CD1E12806392D00EE8EBD /* Build configuration list for PBXNativeTarget "Adidala_GroceryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5CD1E22806392D00EE8EBD /* Debug */,
+				7B5CD1E32806392D00EE8EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B5CD1E42806392D00EE8EBD /* Build configuration list for PBXNativeTarget "Adidala_GroceryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5CD1E52806392D00EE8EBD /* Debug */,
+				7B5CD1E62806392D00EE8EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B5CD1AC2806392B00EE8EBD /* Project object */;
+}
